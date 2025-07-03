@@ -324,10 +324,14 @@
 @media (max-width: 767px) {
   /* Navbar Styles for Mobile */
   .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background-color: #fafdff; /* Light blue background */
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
   .navbar-logo {
@@ -342,36 +346,37 @@
   .nav-links {
     display: none; /* Hide nav links on mobile */
   }
-
-  /* General Mobile Styles */
-  #root {
-    width: 100vw;
-    padding: 1rem;
-  }
-
-  .section {
-    width: 95vw;
-    max-width: 100vw;
-    padding: 20px;
-    margin: 0 auto;
-  }
-
-  .real-life-story {
-    width: 95vw;
-    max-width: 98vw;
-    padding: 24px 8vw 14px 8vw;
-    font-size: 0.9rem;
-    margin: 0 auto;
-  }
-
-  .faq-section {
-    padding: 32px 0 24px 0;
-  }
-
-  .faq-title {
-    font-size: 1.8rem;
-  }
 }
+
+/* General Mobile Styles */
+#root {
+  width: 100vw;
+  padding: 1rem;
+}
+
+.section {
+  width: 95vw;
+  max-width: 100vw;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.real-life-story {
+  width: 95vw;
+  max-width: 98vw;
+  padding: 24px 8vw 14px 8vw;
+  font-size: 0.9rem;
+  margin: 0 auto;
+}
+
+.faq-section {
+  padding: 32px 0 24px 0;
+}
+
+.faq-title {
+  font-size: 1.8rem;
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -1496,4 +1501,13 @@ html {
     height: 28px;
     max-width: 90px;
   }
+}
+
+
+  .faq-title {
+    font-size: 1.8rem;
+  }
+
+html {
+  scroll-behavior: smooth;
 }

@@ -63,7 +63,7 @@ function AboutSection() {
         <h2 className="about-title">How a Simple Favor Became a Trusted System</h2>
         <div className="about-body">
           <p>
-            It started with a simple favor—friends and community members asking for help exchanging RMB and FCFA. What began as a one-time gesture quickly grew as more people discovered a safe, reliable way to exchange currency.
+            It started with—friends and community members to exchange RMB and FCFA. What began as a one-time gesture quickly grew as more people discovered a safe, reliable way to exchange currency.
           </p>
           <p>
             As word spread, the need grew. More people joined, and soon, what started as a small act of trust became a thriving system.
@@ -77,7 +77,7 @@ function AboutSection() {
         </div>
         {/* Timeline */}
         <div className="about-timeline">
-          <div className="timeline-point"><span>First Favor</span></div>
+          <div className="timeline-point"><span>First action</span></div>
           <div className="timeline-bar"></div>
           <div className="timeline-point"><span>Growing Need</span></div>
           <div className="timeline-bar"></div>
