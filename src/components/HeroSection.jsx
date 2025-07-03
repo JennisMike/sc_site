@@ -42,7 +42,7 @@ function HeroSection() {
               <span className="fw-bold fs-3">SwapChat</span>
             </div>
             <h1 className="display-4 fw-bold mb-3 slide-up" style={{fontFamily: 'Poppins, Inter, Nunito Sans, sans-serif'}}>
-              Chat Like WeChat. Transfer Like Alipay.
+              Chat Like WeChat, Transfer Like Alipay.
             </h1>
             <p className="lead mb-4 slide-up" style={{fontFamily: 'Poppins, Inter, Nunito Sans, sans-serif'}}>
             P2P currency exchange between FCFA & RMB, trusted by over ¥80,000 in organic trades

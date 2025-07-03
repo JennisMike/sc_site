@@ -40,7 +40,7 @@ function NotifyMeSection() {
   return (
     <section id="email-form-section" className="notify-section">
       <div className="notify-container">
-        <h2 className="notify-title">Be First To Know When We Launch</h2>
+        <h2 className="notify-title">Be First To Know When We Launch!</h2>
         {!submitted ? (
           <form className="notify-form" onSubmit={handleSubmit} autoComplete="off">
             <input
@@ -60,7 +60,7 @@ function NotifyMeSection() {
           <div className="notify-thankyou">{message}</div>
         )}
         {message && !submitted && <div className="notify-thankyou">{message}</div>}
-        <div className="notify-subtext">We'll email you once it's live. No spam.</div>
+        <div className="notify-subtext">We'll email you once it's live. Only once, No spam.</div>
       </div>
     </section>
   );

@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: 'Can I reset my password?',
-    a: 'Yes. Password reset is only available inside the app once you are logged in. There is a "Forgot Password" option on the login screen which requires email code verificattion. We advise all users to keep their login details safe.'
+    a: 'Yes. Password reset is available inside the app once you are logged in. There is also a "Forgot Password" option on the login screen which requires email code verificattion. We advise all users to keep their login details safe.'
   },
   {
     q: 'How is the exchange rate calculated?',

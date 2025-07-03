@@ -3,11 +3,11 @@ import '../App.css';
 
 const features = [
   {
-    name: 'Post & Swap Offers',
+    name: 'Post & Accept Offers',
     icon: (
       <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><path d="M16 17l5-5-5-5"/><path d="M21 12H8"/><path d="M8 7v10"/><path d="M8 12H3"/></svg>
     ),
-    desc: 'Say what you have and need. Set your own rate.'
+    desc: 'Say what you have and need. Set your own rate(optional).'
   },
   {
     name: 'Chat Like WeChat',
@@ -21,7 +21,7 @@ const features = [
     icon: (
       <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 3v4"/><path d="M8 3v4"/><path d="M2 11h20"/></svg>
     ),
-    desc: 'MoMo transfers happen inside the app. No mistakes.'
+    desc: "MoMo transfers happen inside the app. You'll never transfer to the wrong number again."
   },
   {
     name: 'Community-Set Rates',

@@ -31,7 +31,7 @@ function ProofSection() {
           <h2 className="proof-title">Built on Trust. Proven by Use.</h2>
           <div className="proof-caption">Over <span className="proof-highlight">¥80,000</span> exchanged — and still counting.</div>
           <blockquote className="proof-quote">
-            "Some people I never met sent money to me. That's the kind of trust we're building together."
+            "People I've never met send money to me while I do the same. That's the kind of trust we're building together."
           </blockquote>
         </div>
         {/* Right Column: Carousel */}

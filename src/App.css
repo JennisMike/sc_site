@@ -152,6 +152,26 @@
   }
 }
 
+@media (max-width: 767px) {
+  /* Ensure no horizontal overflow */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Adjust root to prevent overflow */
+  #root {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Ensure sections do not exceed viewport */
+  .section {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+}
 
 /* Custom Navbar Styles */
 .custom-navbar {
@@ -298,6 +318,58 @@
   }
   .navbar-hamburger {
     display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Navbar Styles for Mobile */
+  .navbar {
+    background-color: #fafdff; /* Light blue background */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .navbar-logo {
+    display: inline-block;
+  }
+
+  .navbar-cta {
+    display: inline-block;
+    margin-left: auto;
+  }
+
+  .nav-links {
+    display: none; /* Hide nav links on mobile */
+  }
+
+  /* General Mobile Styles */
+  #root {
+    width: 100vw;
+    padding: 1rem;
+  }
+
+  .section {
+    width: 95vw;
+    max-width: 100vw;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .real-life-story {
+    width: 95vw;
+    max-width: 98vw;
+    padding: 24px 8vw 14px 8vw;
+    font-size: 0.9rem;
+    margin: 0 auto;
+  }
+
+  .faq-section {
+    padding: 32px 0 24px 0;
+  }
+
+  .faq-title {
+    font-size: 1.8rem;
   }
 }
 
@@ -1109,6 +1181,35 @@ html {
   font-family: 'Nunito Sans', 'Inter', 'Poppins', sans-serif;
   font-weight: 400;
   text-align: left;
+}
+@media (max-width: 767px) {
+  /* FAQ Section Styles for Mobile */
+  .faq-section {
+    width: 100%;
+    padding: 32px 0 24px 0;
+    box-sizing: border-box;
+  }
+
+  .faq-card {
+    width: 90%;
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+  .faq-card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .faq-card-content {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 991px) {
   .faq-list {
