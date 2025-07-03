@@ -324,9 +324,8 @@
 @media (max-width: 767px) {
   /* Navbar Styles for Mobile */
   .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
     z-index: 1000;
     background-color: #fafdff; /* Light blue background */
     display: flex;
@@ -346,11 +345,6 @@
 
   .nav-links {
     display: none; /* Hide nav links on mobile */
-  }
-
-  /* Add padding to the top of the body to prevent content from hiding behind the navbar */
-  body {
-    padding-top: 60px;
   }
 }
 
