@@ -1,4 +1,5 @@
 import './App.css';
+import { Analytics } from '@vercel/analytics/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
@@ -26,6 +27,7 @@ function App() {
       <FAQSection />
       <NotifyMeSection />
       <Footer />
+      <Analytics />
       {/* Other sections (Email Signup, Footer) will go here */}
     </>
   );
